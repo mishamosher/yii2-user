@@ -1,13 +1,12 @@
 {
-    "name": "dektrium/yii2-user",
+    "name": "mishamosher/yii2-user",
     "description": "Flexible user registration and authentication module for Yii2",
-    "keywords": ["yii2", "yii2-user", "user management", "dektrium"],
+    "keywords": ["yii2", "yii2-user", "user management"],
     "type": "yii2-extension",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/dektrium/yii2-user/issues?state=open",
-        "forum": "https://gitter.im/dektrium/yii2-user",
-        "source": "https://github.com/dektrium/yii2-user"
+        "issues": "https://github.com/mishamosher/yii2-user/issues?state=open",
+        "source": "https://github.com/mishamosher/yii2-user"
     },
     "authors": [
         {
