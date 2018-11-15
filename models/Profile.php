@@ -113,7 +113,7 @@ class Profile extends ActiveRecord
      * Defaults to the application timezone if not specified by the user.
      * @return \DateTimeZone
      */
-    public function getTimeZone()
+    public function getTimeZoneObj()
     {
         try {
             return new \DateTimeZone($this->timezone);
@@ -127,7 +127,7 @@ class Profile extends ActiveRecord
      * Set the user's time zone.
      * @param \DateTimeZone $timezone the timezone to save to the user's profile
      */
-    public function setTimeZone(\DateTimeZone $timeZone)
+    public function setTimeZoneObj(\DateTimeZone $timeZone)
     {
         $this->setAttribute('timezone', $timeZone->getName());
     }
